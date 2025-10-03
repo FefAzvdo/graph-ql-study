@@ -1,8 +1,3 @@
-Beleza, Mestre 😎
-Vou mandar um **README em inglês**, direto ao ponto, no estilo que empresas e devs gostam de ver em projetos de GraphQL + Node + TS.
-
----
-
 # GraphQL Playground Project
 
 🚀 A simple GraphQL API built with **Node.js**, **TypeScript**, and **Apollo Server**.
