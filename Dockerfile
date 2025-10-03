@@ -20,4 +20,4 @@ RUN npm run build
 EXPOSE 4000
 
 # Rodar o servidor compilado
-CMD ["node", "dist/server.js"]
+CMD ["node", "dist/simple-server.js"]
