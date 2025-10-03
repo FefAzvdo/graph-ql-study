@@ -1,5 +1,5 @@
 import { randomUUID } from "crypto";
-import { users } from "../../data/users.ts";
+import { users } from "../../data/users.js";
 
 export const userResolvers = {
   Query: {
