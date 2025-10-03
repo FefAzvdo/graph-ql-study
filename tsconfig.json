@@ -11,6 +11,5 @@
     "sourceMap": true,
     "declaration": true,
     "allowJs": true
-  },
-  "include": ["**/*.ts"]
+  },  
 }
