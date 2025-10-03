@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:simple": "nodemon --watch . --exec node --no-deprecation --loader ts-node/esm simple-server.ts"
+    "dev:simple": "nodemon --watch . --exec node --no-deprecation --loader ts-node/esm simple-server.ts",
+    "dev": "nodemon --watch src -e ts --exec ts-node src/simple-server.ts",
+    "build": "tsc",
+    "start": "node dist/simple-server.js"
   },
   "keywords": [],
   "author": "",

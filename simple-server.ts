@@ -7,6 +7,8 @@ const server = new ApolloServer({
   resolvers,
 });
 
-server.listen({ port: 4000, cors: { origin: "*" } }).then(({ url }) => {
+const PORT = process.env.PORT || 4000;
+
+server.listen({ port: PORT, cors: { origin: "*" } }).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
 });
