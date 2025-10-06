@@ -3,7 +3,7 @@ import { typeDefs } from "./src/schema/typeDefs/index.js";
 import { resolvers } from "./src/schema/resolvers/index.js";
 
 const server = new ApolloServer({
-  typeDefs,
+  typeDefs: typeDefs,
   resolvers,
 });
 

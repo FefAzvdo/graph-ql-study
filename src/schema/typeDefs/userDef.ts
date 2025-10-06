@@ -1,6 +1,9 @@
 import { gql } from "apollo-server";
 
 export const userTypeDef = gql`
+  type Query
+  type Mutation
+
   type User {
     id: ID!
     nome: String!
